@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Sidebar from "./components/Sidebar";
 import ChatWindow from "./components/Chatwindow";
 import { io } from "socket.io-client";
-import './app.css';
+import './App.css';
 
 const socket = io(import.meta.env.VITE_API_BASE?.replace("/api", "") || "http://localhost:8000");
 
